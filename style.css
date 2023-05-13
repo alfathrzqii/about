@@ -69,15 +69,21 @@ body {
   font-family: "Space Mono", monospace;
 }
 
+.social-icons {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+
 .social-icons a {
   display: inline-block;
   margin-right: 10px;
-  color: #fff;
+  color: white;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
   text-align: center;
   transition: all 0.3s ease-in-out;
 }
