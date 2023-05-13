@@ -81,11 +81,12 @@ body {
   color: white;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
-  width: 70px;
-  height: 70px;
-  line-height: 70px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
   text-align: center;
   transition: all 0.3s ease-in-out;
+  font-size: 24px;
 }
 
 .social-icons a:hover {
