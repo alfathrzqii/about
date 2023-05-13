@@ -27,7 +27,6 @@ body {
   transition: transform 0.5s;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
   border: 1px solid rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
 }
 
 .card:hover {
@@ -50,6 +49,7 @@ body {
   text-align: center;
   color: #fff;
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  font-family: "Space Mono", monospace;
 }
 
 .description {
@@ -58,4 +58,5 @@ body {
   text-align: center;
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   margin: 20px 0 0 0;
+  font-family: "Space Mono", monospace;
 }
